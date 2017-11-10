@@ -14,7 +14,7 @@ using namespace std;
 
 void getPassenger(string fname, string lname);
 void deleteLastPassenger(int flightNum,string fName,string lName);
-//test
+
 //Passenger p;
 OrderedLinkedList<Passenger> flight100;
 OrderedLinkedList<Passenger> flight200;
@@ -70,7 +70,7 @@ int main() {
 			break;
 
 		}
-
+//Searches a passenger using flightNum, lName and fName
 		case 'S': case 's':{
 			int flightNum;
 			string fName, lName;
@@ -85,7 +85,7 @@ int main() {
 
 			break;
 		}
-
+//Delete a passenger using flightNum, lNames and fName
 		case 'D': case 'd':{
 			int flightNum;
 			string fName, lName;
@@ -99,7 +99,7 @@ int main() {
 
 			break;
 		}
-
+//List the specific linked list
 		case 'L': case 'l':{
 			int flightNum;
 			cout << "Enter flight number:"<<endl;
